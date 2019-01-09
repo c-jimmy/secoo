@@ -1,0 +1,250 @@
+{
+  "brand": [{
+      "id": 1,
+      "name": "Louis Vuitton/路易威登"
+    },
+    {
+      "id": 2,
+      "name": " PRADA/普拉达"
+    },
+    {
+      "id": 3,
+      "name": "GUCCI/古驰"
+    },
+    {
+      "id": 4,
+      "name": "COACH/蔻驰"
+    },
+    {
+      "id": 5,
+      "name": "Bottega Veneta/葆蝶家"
+    }
+  ],
+  "category": {
+    "firstcategoryid": [ // 固定传入，值是不变的
+      {
+        "id": 1,
+        "name": "包袋"
+      },
+      {
+        "id": 2,
+        "name": "腕表"
+      },
+      {
+        "id": 3,
+        "name": "珠宝首饰"
+      },
+      {
+        "id": 4,
+        "name": "服饰"
+      },
+      {
+        "id": 5,
+        "name": "鞋履"
+      },
+      {
+        "id": 6,
+        "name": "配饰"
+      }
+    ],
+    "secondcategoryid": [ // 根据传入的一级分类，获取该分类下面的二级分类
+      {
+        "id": 1,
+        "name": "单肩包"
+      },
+      {
+        "id": 2,
+        "name": "斜挎包"
+      },
+      {
+        "id": 3,
+        "name": "手提包"
+      },
+      {
+        "id": 4,
+        "name": "公文包"
+      },
+      {
+        "id": 5,
+        "name": "双肩包"
+      },
+      {
+        "id": 6,
+        "name": "钱包"
+      },
+      {
+        "id": 7,
+        "name": "腰包"
+      }
+    ],
+    "thirdcategoryid": [ // 根据传入的二级分类，获取该分类下面的三级分类
+
+    ]
+  },
+  "whereHouse": [{
+      "id": 1,
+      "name": "大陆"
+    },
+    {
+      "id": 2,
+      "name": "香港"
+    },
+    {
+      "id": 3,
+      "name": "美国"
+    },
+    {
+      "id": 4,
+      "name": "日本"
+    },
+    {
+      "id": 5,
+      "name": "韩国"
+    },
+    {
+      "id": 6,
+      "name": "欧洲"
+    },
+    {
+      "id": 7,
+      "name": "澳洲"
+    }
+  ],
+  "property": [{
+      "propertyName": "款式说明",
+      "propertyId": 1001,
+      "multipleAble": true,
+      "propertyValue": [{
+          "id": 1,
+          "name": "横款"
+        },
+        {
+          "id": 2,
+          "name": "短款"
+        },
+        {
+          "id": 3,
+          "name": "竖款"
+        },
+        {
+          "id": 4,
+          "name": "长宽"
+        },
+        {
+          "id": 5,
+          "name": "中款"
+        }
+      ]
+    },
+    {
+      "propertyName": "使用性别",
+      "propertyId": 1002,
+      "multipleAble": false,
+      "propertyValue": [{
+          "id": 1,
+          "name": "男性"
+        },
+        {
+          "id": 2,
+          "name": "女性"
+        },
+        {
+          "id": 3,
+          "name": "通用"
+        }
+      ]
+    },
+    {
+      "propertyName": "背包方式",
+      "propertyId": 1003,
+      "multipleAble": true,
+      "propertyValue": [{
+          "id": 1,
+          "name": "双肩"
+        },
+        {
+          "id": 2,
+          "name": "手提"
+        },
+        {
+          "id": 3,
+          "name": "斜跨"
+        },
+        {
+          "id": 4,
+          "name": "其他"
+        }
+      ]
+    },
+    {
+      "propertyName": "材质",
+      "propertyId": 1004,
+      "multipleAble": true,
+      "propertyValue": [{
+          "id": 1,
+          "name": "织物/配皮"
+        },
+        {
+          "id": 2,
+          "name": "蛇皮"
+        },
+        {
+          "id": 3,
+          "name": "山羊皮"
+        },
+        {
+          "id": 4,
+          "name": "桑蚕丝"
+        },
+        {
+          "id": 5,
+          "name": "人造革"
+        },
+        {
+          "id": 6,
+          "name": "其他"
+        },
+        {
+          "id": 7,
+          "name": "漆皮"
+        },
+        {
+          "id": 8,
+          "name": "牛皮革"
+        },
+        {
+          "id": 9,
+          "name": "尼龙"
+        },
+        {
+          "id": 10,
+          "name": "羊皮"
+        },
+        {
+          "id": 11,
+          "name": "羊毛毡"
+        },
+        {
+          "id": 12,
+          "name": "压花牛皮"
+        },
+        {
+          "id": 13,
+          "name": "小牛皮"
+        },
+        {
+          "id": 14,
+          "name": "鳄鱼皮"
+        },
+        {
+          "id": 15,
+          "name": "帆布"
+        },
+        {
+          "id": 16,
+          "name": "PVC/配皮"
+        }
+      ]
+    }
+  ]
+}

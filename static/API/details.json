@@ -1,0 +1,154 @@
+{
+  "status": 0,
+  "msg": "返回成功",
+  "data": {
+
+    // 分类（面包屑导航数据）【此处通过 categoryId 获取，不过该接口需要返回这个数据】
+    "category": [{
+        "name": "男装",
+        "id": 21
+      },
+      {
+        "name": "男士外套",
+        "id": 21012
+      },
+      {
+        "name": "男士风衣",
+        "id": 21012065
+      }
+    ],
+    "contentsInfo": {
+      "id": "27179953120103", // 商品 ID 为前面10位数，10位后面的则为SKU ID
+      "name": "BURBERRY/博柏利 男士时尚纯色风衣 外套3911057",
+      "price": "12368",
+      "count": 12,
+      "address": "香港",
+      "state": 1, // 1: 正常出售中 0：产品已失效
+      "mainImg": "http://pic11.secooimg.com/product/500/500/10/52/f431ffca185f4776bacb47cbe45eaaa8.jpg",
+
+      // 主图
+      "imgs": [{
+        "small": "http://pic11.secooimg.com/product/80/80/10/52/f431ffca185f4776bacb47cbe45eaaa8.jpg",
+        "big": "http://pic11.secooimg.com/product/500/500/10/52/f431ffca185f4776bacb47cbe45eaaa8.jpg"
+      }, {
+        "small": "http://pic11.secooimg.com/product/80/80/56/52/846281cc66554598abb3aef34ff47bc6.jpg",
+        "big": "http://pic11.secooimg.com/product/500/500/56/52/846281cc66554598abb3aef34ff47bc6.jpg"
+      }, {
+        "small": "http://pic11.secooimg.com/product/80/80/50/99/2c053c2ac6bd400fa31490c8db627235.jpg",
+        "big": "http://pic11.secooimg.com/product/500/500/50/99/2c053c2ac6bd400fa31490c8db627235.jpg"
+      }, {
+        "small": "http://pic11.secooimg.com/product/80/80/10/57/f96c88ad137d4102b287b49edb154efe.jpg",
+        "big": "http://pic11.secooimg.com/product/500/500/10/57/f96c88ad137d4102b287b49edb154efe.jpg"
+      }, {
+        "small": "http://pic11.secooimg.com/product/80/80/57/10/9ee287cd9f3f4d82943ee66d4cccd48a.jpg",
+        "big": "http://pic11.secooimg.com/product/500/500/57/10/9ee287cd9f3f4d82943ee66d4cccd48a.jpg"
+      }],
+      // SKU
+      "sku": [{
+          "skuName": "颜色",
+          "skuList": [{
+            "id": 01,
+            "name": "黑色双排扣",
+            "img": "http://pic11.secooimg.com/product/50/50/98/53/b5356f65598e4034bd3f8ae4ada36f88.jpg",
+            "stock": 5,
+            "isNow": true
+          }, {
+            "id": 02,
+            "name": "黑色单排扣",
+            "img": "http://pic11.secooimg.com/product/50/50/52/98/4b765c306cff40efb5af14eb9ee985b7.jpg",
+            "stock": 0,
+            "isNow": false
+          }, {
+            "id": 03,
+            "name": "卡其双排扣",
+            "img": "http://pic11.secooimg.com/product/50/50/10/52/f431ffca185f4776bacb47cbe45eaaa8.jpg",
+            "stock": 5,
+            "isNow": false
+          }]
+        },
+        {
+          "skuName": "服装尺寸",
+          "skuList": [{
+            "id": 01,
+            "name": "意码46",
+            "stock": 5,
+            "isNow": false
+          }, {
+            "id": 02,
+            "name": "意码48",
+            "stock": 0,
+            "isNow": false
+          }, {
+            "id": 03,
+            "name": "意码50",
+            "stock": 5,
+            "isNow": true
+          }, {
+            "id": 04,
+            "name": "意码52",
+            "stock": 6,
+            "isNow": false
+          }]
+        }
+      ],
+    },
+
+    "detailsInfo": {
+
+      // 品牌及品牌故事【此处通过brandId获取，不过该接口需要返回这个数据】
+      "brand": {
+        "brandId": 0005451,
+        "brandName": "博柏利",
+        "brandInfo": {
+          "proImg": "http://pic.secoo.com/detailImg/17/1/ec4662d815be4e5aba41e48c94086a51.jpg",
+          "proName": "BURBERRY",
+          "proDesc": "Burberry 有156年的历史，是具有浓厚英伦风情的品牌，主要以经营服饰为主。一直以来成为品质、革新以及古典的代名词，Burberry旗下产品有：女装、女装配饰、手袋和鞋履、男装、男装配饰、童装、美妆、香水、家居用品等。其中旗下的风衣作为品牌标识广受欢迎。在Burberry创意总监Christopher Bailey的创意理念领导下，该品牌不断与时俱进。在充满现代感和崇尚真我表达的同时，又承袭了起先的价值理念和1856年建立至今的品牌传统。"
+        }
+      },
+      // 商品参数
+      "params": [{
+          "name": "销售渠道类型",
+          "value": "商场同款(线上线下都销售)"
+        },
+        {
+          "name": "风格",
+          "value": "时尚"
+        },
+        {
+          "name": "开合方式",
+          "value": "其他"
+        },
+        {
+          "name": "衣长",
+          "value": "常规"
+        },
+        {
+          "name": "领型",
+          "value": "立领"
+        },
+        {
+          "name": "商品材质",
+          "value": "棉"
+        },
+        {
+          "name": "适合季节",
+          "value": "秋季"
+        },
+        {
+          "name": "产地",
+          "value": "详见产品内部"
+        },
+        {
+          "name": "上市年份季节",
+          "value": "19年春夏"
+        },
+        {
+          "name": "品牌名称",
+          "value": "博柏利"
+        },
+      ],
+      // 商品详情（MarkDown 格式）
+      "details": "## 这个是 MarkDown 文件"
+    },
+  }
+}
